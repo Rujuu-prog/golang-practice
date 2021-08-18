@@ -1,0 +1,7 @@
+version: "3"
+services:
+  golang-practice:
+    build: .
+    tty: true
+    volumes:
+      - ./app:/go/src/app
